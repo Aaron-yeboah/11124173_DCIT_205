@@ -8,6 +8,7 @@
 body {
     background-color:rgb(143, 113, 113);
     background-size: cover;
+    overflow-x: hidden;
 }
 
 
@@ -239,10 +240,13 @@ body {
 
 .foot {
     background-color: rgb(5, 63, 63);
-    height: 880px;
-    padding-top: 8%;
+    height: 810px;
+    margin-top: 90px;
+    padding-top: 5%;
     color:white;
     font-weight: bold;
+    position: absolute;
+    width: 100%;
 }
 
 .foot6 .call{
@@ -276,7 +280,82 @@ body {
 
 .down-foot{
     background-color: rgb(0, 0, 0);
+    position: absolute;
+    width: 100%;
+    margin-top: -200px;
 }
 .down-foot .foot-p{
     text-align: center;
+}
+
+.form1{
+    padding-left:3%;
+    color:white;
+
+}
+
+.form-til{
+    padding-left:3%;
+    color:white;
+}
+
+.but1{
+    margin-left:8%;
+    width:60px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+
+.but1:hover{
+    background-color: black;
+    color:white;
+}
+
+.Courses-body{
+    background: url(./pics/cloud.jpeg) no-repeat;
+    width:100%;
+    background-size: cover;
+
+}
+
+.about-message{
+    padding-top: 50px;
+    text-align:center;
+    font-size: 30px;
+}
+
+video{
+    border-radius: 40px;
+    width: 1050px;
+    margin-left: 250px;
+
+}
+
+.main-message{
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.Wel{
+    text-align: center;
+    color:white;
+    font-size: 45px;
+}
+
+.Group1{
+    position:relative;
+    width:400px;
+    height:250px;
+    margin-left:100px;
+    margin-top: 50px;
+}
+.Group2{
+    position:relative;
+    width:400px;
+    height:250px;
+    margin-left: 500px;
+    margin-top: 50px;
 }
