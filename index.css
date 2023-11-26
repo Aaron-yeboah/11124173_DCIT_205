@@ -5,8 +5,11 @@
     padding: 0;
 }
 
+.upperbody{
+    background: url(./pics/Blue\ Business\ Technology.jpeg);
+}
 body {
-    background-color:rgb(143, 113, 113);
+    background-color:rgb(255, 255, 255);
     background-size: cover;
     overflow-x: hidden;
 }
@@ -21,6 +24,10 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-top:20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 
 .logo {
@@ -50,13 +57,14 @@ body {
     font-family: 'Playfair Display', serif;
     padding-top: 5%;
     padding-left: 3%;
-    color: rgb(0, 0, 0);
+    color: white;
 
 }
 
 .message {
     margin-top: 30px;
     font-weight: 200px;
+    color:white;
 }
 
 .mes12{
@@ -71,11 +79,12 @@ body {
     position:relative;
     height:650px;
     float:right;
-    top: -900px;
-    margin-right: 70px;
+    top: -850px;
+
+    margin-right: 10px;
     border-top-left-radius: 45px;
     border-bottom-right-radius: 45px;
-    width:40%;
+    width:50%;
 }
 
 .image1{
@@ -116,6 +125,7 @@ body {
 
 .sub-mes1 {
     padding: 30px;
+    color:white;
     
 }
 
@@ -135,6 +145,7 @@ body {
     top: -400px;
     height:300px;
     margin-top: -3px;
+    color:white;
 }
 
 .course-mes{
@@ -160,23 +171,7 @@ body {
 }
 
 
-.mes-15{
-    display: grid;
-    border-color:blue;
-    row-gap: 40px;
-    column-gap: 40px;
-    margin-top: 150px;
-    font-size:20px;
-    border: 2px solid aqua;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    margin-left: 3%;
-    width: 90%;
-    top: -200px;
-    height:800px;
-    margin-top: -1px;
-}
+
 
 footer{
     background-color: rgb(58, 63, 98);
@@ -207,6 +202,7 @@ footer{
 .form-til{
     padding-left:3%;
     color:white;
+    margin-top: 100px;
 }
 
 .but1{
@@ -233,6 +229,7 @@ footer{
     padding-top: 50px;
     text-align:center;
     font-size: 30px;
+    margin-top: 50px;
 }
 
 video{
@@ -243,7 +240,7 @@ video{
 }
 
 .main-message{
-    color:white;
+    color:rgb(35, 35, 83);
     font-weight: bold;
     font-size: 25px;
     text-align: center;
@@ -251,7 +248,7 @@ video{
 
 .Wel{
     text-align: center;
-    color:white;
+    color:rgb(35, 35, 83);
     font-size: 45px;
 }
 
@@ -268,4 +265,324 @@ video{
     height:250px;
     margin-left: 500px;
     margin-top: 50px;
+}
+
+.lect-head{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top:100px;
+}
+
+.lect{
+    height:400px;
+}
+.Soli img{
+   width:300px;
+   margin-left:3%;
+   border-top-right-radius: 40px;
+   border-bottom-left-radius: 40px;
+}
+
+.Soli p{
+    margin-left:5%;
+    font-size:25px;
+    font-weight: bold;
+}
+
+.Mark img{
+    position:relative;
+    width:300px;
+    top:-330px;
+   margin-left:25%;
+   border-top-right-radius: 40px;
+   border-bottom-left-radius: 40px;
+}
+
+.lect .Mark p{
+    position:absolute;
+    top:440px;
+    margin-left:28%;
+    font-size:25px;
+    font-weight: bold;
+}
+
+.Owusu img{
+    position:relative;
+    width:300px;
+    top:-630px;
+   margin-left:47%;
+   border-top-right-radius: 40px;
+   border-bottom-left-radius: 40px;
+}
+
+.lect .Owusu p{
+    position:absolute;
+    top:440px;
+    margin-left:51%;
+    font-size:25px;
+    font-weight: bold;
+}
+
+.Ansong img{
+    position:relative;
+    width:300px;
+    top:-935px;
+   margin-left:69%;
+   border-top-right-radius: 40px;
+   border-bottom-left-radius: 40px;
+}
+
+.lect .Ansong p{
+    position:absolute;
+    top:440px;
+    margin-left:71%;
+    font-size:25px;
+    font-weight: bold;
+}
+
+/* .lab img{
+    position:relative;
+    top: -300px;
+    width:1200px;
+    margin-left: 10%;
+}
+
+.lab h2{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top:1830px;
+    left:650px;
+} */
+
+.lab img{
+    height:800px;
+    margin-left: 7%;
+}
+.lab h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading {
+    margin-top: 100px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+.level_courses {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.level_courses_child{
+    width: 600px;
+    margin-top: 50px;
+}
+
+
+.lect-mes p{
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Admis {
+    text-align: center;
+    padding-top:7%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Admis-title{
+    margin-top:100px;
+    font-weight:bold;
+    font-family: Verdana;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.ShortCourse-button button{
+    position: absolute;
+    top:1750px;
+    width:250px;
+    margin-left:600px;
+    height: 70px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.ShortCourse-button button a{
+    font-size: 18px;
+    transition: 0.3s;
+}
+.ShortCourse-button button:hover{
+    background-color:rgb(70, 70, 171);
+}
+.ShortCourse-button button a:hover{
+    color:white;
+}
+
+.Enrollment-header{
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+.res h1{
+    width: 100%;
+    text-align: center;
+    font-size: 42px;
+    margin-top: 150px;
+}
+
+.resworks h3 {
+    font-size: 32px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.resworks p{
+    font-size: 24px;
+    margin: 30px 30px;
+}
+
+.researchid h2{
+    margin: 30px 30px;
+    font-size: 32px;
+    margin-left: 50px;
+}
+.researchid p{
+    font-size: 24px;
+    margin: 30px 30px;
+}
+
+.researchid a{
+    font-size: 24px;
+    margin-left: 35px;
+    font-weight: 600;
+}
+
+.group {
+    height: 1000px;
+}
+
+.Upper-div {
+    margin-left: 80px;
+}
+.Upper-div1 {
+    border: 2px solid red;
+    position: relative;
+    width: 350px;
+    margin-top: 50px;
+    height: 390px;
+    
+}
+.Upper-div2 {
+    border: 2px solid red;
+    position: relative;
+    width: 350px;
+    margin-top: 50px;
+    height: 390px;
+    left: 500px;
+    top: -440px;
+}
+.Upper-div3 {
+    border: 2px solid red;
+    position: relative;
+    width: 350px;
+    left: 990px;
+    height: 390px;
+    top: -830px;
+}
+
+.Lower-div{
+    margin-left: 80px;
+}
+.Lower-div1 {
+    border: 2px solid blue;
+    height: 390px;
+    position: relative;
+    width: 350px;
+    top: -700px;
+}
+.Lower-div2 {
+    border: 2px solid blue;
+    height: 390px;
+    position: absolute;
+    width: 350px;
+    top: 710px;
+    left: 580px;
+}
+.Lower-div3 {
+    border: 2px solid blue;
+    height: 390px;
+    position: absolute;
+    width: 350px;
+    top: 714px;
+    left: 1070px;
+}
+
+.Enter-button button{
+    margin-left:750px;
+    height: 50px;
+    width:150px;
+    border-radius: 50px;
+    margin-bottom: 90px;
+    cursor: pointer;
+}
+
+.Enter-button button:hover{
+    background-color:black;
+}
+
+.Enter-button button h2:hover{
+    color:white;
+}
+
+.Res{
+    margin-top:100px;
+}
+
+.event{
+    margin-top:100px;
+}
+.event p{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.event-pics1 img{
+    position: relative;
+    width:500px;
+    margin-left:60px;
+}
+
+.event-pics2 img{
+    width:500px;
+    height:500px;
+    margin-left:60px;
+}
+
+.event-pics3 img{
+    position:relative;
+    margin-left:700px;
+    top:-1080px;
+    
 }
