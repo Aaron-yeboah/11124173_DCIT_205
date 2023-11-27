@@ -493,6 +493,74 @@ video{
     height: 390px;
     
 }
+
+.Upper-div1 img {
+    width: 200px;
+    margin-left: 60px;
+}
+
+.Upper-div1 h4, .Upper-div1 a{
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+.Upper-div2 img {
+    width: 200px;
+    margin-left: 60px;
+}
+
+.Upper-div2 h4, .Upper-div2 a{
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+.Upper-div3 img {
+    width: 200px;
+    margin-left: 60px;
+    padding-top: 20px;
+
+}
+
+.Upper-div3 h4, .Upper-div3 a{
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+.Lower-div1 img {
+    width: 200px;
+    margin-left: 60px;
+    padding-top: 20px;
+
+}
+
+.Lower-div1 h4, .Lower-div1 a{
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+.Lower-div2 img{
+    width: 200px;
+    margin-left: 60px;
+    padding-top: 20px;
+
+}
+
+.Lower-div2 h4, .Lower-div2 a{
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+.Lower-div3 img {
+    width: 200px;
+    margin-left: 60px;
+    padding-top: 20px;
+}
+
+.Lower-div3 h4, .Lower-div3 a{
+    font-size: 26px;
+    margin-left: 20px;
+}
+
 .Upper-div2 {
     border: 2px solid red;
     position: relative;
@@ -585,4 +653,23 @@ video{
     margin-left:700px;
     top:-1080px;
     
+}
+
+.event-pics4 img{
+    position:absolute;
+    width:800px;
+    top:1350px;
+    height:900px;
+}
+
+.event-pics5 img{
+    position:absolute;
+    left:800px;
+    top:1350px;
+}
+
+.image-container{
+    
+    height:2400px;
+    flex-wrap: wrap;
 }
