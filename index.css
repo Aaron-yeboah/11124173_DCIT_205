@@ -673,3 +673,7 @@ video{
     height:2400px;
     flex-wrap: wrap;
 }
+
+.res{
+    margin-left: 10%;
+}
